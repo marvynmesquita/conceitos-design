@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Montserrat:wght@100&family=Poppins:wght@100&family=Raleway:wght@100&family=Roboto:wght@100&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h1{
+        font-size: 3rem;
+        font-weight: 600;
+        margin: 1rem;
+    }
+    a {
+        text-decoration: underline;
+    }
+}
+
+.s-colors {
+    font-size: 1.5rem;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    h2 {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    ul{
+        list-style: none;
+        margin: 0;
+        padding: 1rem;
+        text-align: left;
+        li{
+            margin-left: 1em;
+            display: flex;
+            align-items: center;
+            &::before {
+                content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+                color: #C70039; /* Change the color */
+                font-weight: 600; /* If you want it to be bold */
+                font-size: 2.8rem;
+                display: inline-block; /* Needed to add space between the bullet and the text */
+                margin-left: -1em; /* Also needed for space (tweak if needed) */
+              }
+        }
+        
+    }
+    .colors-ex {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        flex-direction: row;
+        .left {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40%;
+            height: 10rem;
+            margin: 1rem 5%;
+            background-color: white;
+            box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+            h3 {
+                color: blue;
+            }
+        }
+        .right {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40%;
+            height: 10rem;
+            margin: 1rem 5%;
+            background-color: #263238;
+            box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+            h3 {
+                color: #FAFAFA;
+            }
+        }
+    }
+}
+
+.s-bg {
+    font-size: 1.5rem;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    h3 {
+        margin: 1rem;
+    }
+    p {
+        margin: 1rem;
+    }
+    .bg-ex {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem;
+        .left {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40%;
+            height: 10rem;
+            margin: 1rem 5%;
+            background-color: #424242;
+            box-shadow: 0px 2px 5px 0px rgba(0,0,0);
+            h3 {
+                color: #505050;
+            }
+        }
+        .right {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40%;
+            height: 10rem;
+            margin: 1rem 5%;
+            background-color: #FFC300;
+            box-shadow: 0px 2px 5px 0px rgba(0,0,0);
+            h3 {
+                color: #900C3F;
+            }
+        }
+    }
+    .degrade-ex {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem;
+        .left {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40%;
+            height: 10rem;
+            margin: 1rem 5%;
+            background-color: #26A69A;
+            box-shadow: 0px 2px 5px 0px rgba(0,0,0);
+        }
+        .right {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40%;
+            height: 10rem;
+            margin: 1rem 5%;
+            background: linear-gradient(184deg, rgba(38,166,154,1) 0%, rgba(5,116,106,1) 100%);
+            box-shadow: 0px 2px 5px 0px rgba(0,0,0);
+        }
+    }
+}
+
+.s-font{
+    font-size: 1.5rem;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem;
+        li {
+            font-weight: 100;
+            font-size: 2rem;
+        }
+        #lato{
+            font-family: 'Lato', sans-serif;
+        }
+        #mont{
+            font-family: 'Montserrat', sans-serif;
+        }
+        #poppins {
+            font-family: 'Poppins', sans-serif;
+        }
+        #raleway {
+            font-family: 'Raleway', sans-serif;
+        }
+        #roboto {
+            font-family: 'Roboto', sans-serif;
+        }
+    }
+    #comic {
+        font-family: "Comic Sans MS", "Comic Sans", cursive;
+        font-size: 2rem;
+    }
+}
+
+.s-inspire{
+    font-size: 1.5rem;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+.s-uteis{
+    font-size: 1.5rem;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
